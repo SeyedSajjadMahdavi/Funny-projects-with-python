@@ -1,8 +1,8 @@
 from PIL import Image, ImageOps, ImageDraw
 
-dicew = 50
+dicew = 99
 
-im = Image.open("Path of your image")
+im = Image.open("/Users/oscar/Desktop/test/sajjad.jpg")
 im = ImageOps.grayscale(im)
 im = ImageOps.equalize(im)
 
@@ -37,4 +37,4 @@ for y in range(0, im.height-dicesize, dicesize):
     print()
         
         
-#nim.show()
+nim.show()
